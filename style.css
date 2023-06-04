@@ -131,11 +131,22 @@ body{
     .cabecalho{
         padding: 10%;
     }
+    
 
     .menu{
         justify-content: center;
     }
     .conteudo{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .conteudo-principal{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .conteudo-principal-escrito{
         flex-direction: column-reverse;
         padding: 5%;
     }
