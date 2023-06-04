@@ -145,6 +145,15 @@ body{
         flex-direction: column-reverse;
         padding: 5%;
     }
+    
+    .conteudo-principal-titulo{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+       
+    .conteudo-principal-subtitulo{
+        flex-direction: row;
+    }
 
     .conteudo-principal-escrito{
         flex-direction: column-reverse;
