@@ -126,3 +126,21 @@ body{
       color: var(--cor-primaria);
       text-align: center;
   }
+
+@media (max-width: 1200px ){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .menu{
+        justify-content: center;
+    }
+    .conteudo{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .conteudo-secundario{
+        width: 100%;
+    }
+}
