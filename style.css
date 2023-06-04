@@ -50,6 +50,8 @@ body{
 .conteudo {
         margin-bottom: 48px;
         border-top: 0.4px solid var(--cor-primaria);
+        display: flex;
+        flex-direction: column;
       }
 
  .conteudo-principal-imagem {
