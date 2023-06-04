@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Righteous&display=swap');
+
+:root {
+    --cor-primaria:  #ead9cb;
+    
+}
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2c0768 16.62%, #5553dc 85.61%);
+    background-image:url(Zoom\ Background\ -\ Planetas\ no\ Espaço.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.logo{
+    height: 72px;
+    border-radius: 400px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item {
+    font-family: 'Lexend', sans-serif;
+    color: var(--cor-primaria);
+    font-weight: 400;
+    font-size: 18px}
+
+
+.conteudo {
+        margin-bottom: 48px;
+        border-top: 0.4px solid var(--cor-primaria);
+      }
+
+ .conteudo-principal-imagem {
+        margin-top: 80px;
+        height: 430px;
+        border-radius: 400px;
+        float: left;
+        -webkit-box-shadow: 0px 3px 5px 0px rgb(105, 62, 105);
+        -moz-box-shadow: 0px 3px 5px 0px rgb(76, 23, 76);
+        box-shadow: 0px 3px 5px 0px rgb(94, 37, 94);
+    
+    }
+      
+.conteudo-principal {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+      
+.conteudo-principal-escrito {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+      
+.conteudo-principal-titulo {
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        font-size: 64px;
+        color: var(--cor-primaria);
+      }
+
+.conteudo-principal-subtitulo {
+        font-family: 'Lexend', sans-serif;
+        font-size: 24px;
+        color: var(--cor-primaria);
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+  
+  .conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor-primaria);
+    margin-bottom: 16px;
+  }
+  
+  .conteudo-secundario-paragrafo {
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--cor-primaria)
+  }
+  
+  .rodape {
+      padding: 32px;
+      border-top: 0.4px solid #FFF2E7;
+      font-family: 'Lexend', sans-serif;
+      font-size: 18px;
+      color: var(--cor-primaria);
+      text-align: center;
+  }
