@@ -18,6 +18,11 @@ body{
     background-image:url(Zoom\ Background\ -\ Planetas\ no\ Espaço.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-grow: 1;
+    
    
 }
 
@@ -122,45 +127,57 @@ body{
       padding: 32px;
       border-top: 0.4px solid #FFF2E7;
       font-family: 'Lexend', sans-serif;
-      font-size: 18px;
+      font-size: 15px;
       color: var(--cor-primaria);
       text-align: center;
+      
   }
 
-@media (max-width: 1200px ){
+
+  @media (max-width: 1200px ){
     .cabecalho{
         padding: 10%;
     }
-    
+
 
     .menu{
-        justify-content: center;
+        justify-content:center;
+        gap: 10px;;
     }
+
     .conteudo{
-        flex-direction: column-reverse;
+        flex-direction:column;
         padding: 5%;
     }
 
     .conteudo-principal{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
-    
     .conteudo-principal-titulo{
         flex-direction: column-reverse;
         padding: 5%;
     }
        
     .conteudo-principal-subtitulo{
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .conteudo-principal-escrito{
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
 
     .conteudo-secundario{
+        flex-direction: column;
         width: 100%;
+    }
+
+    .conteudo-secundario-titulo{
+        flex-direction: column;
+    }
+
+    .conteudo-secundario-paragrafo{
+        flex-direction: column;
     }
 }
